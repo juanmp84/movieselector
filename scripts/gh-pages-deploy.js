@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 const execa = require("fix-esm").require("execa");
-const fs = require("fix-esm").require("fs");
+const fs = require("fix-esm").require("fs");//
 (async () => {
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
