@@ -9,6 +9,7 @@
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
+    "fix-esm": "^1.0.1",
     "vue": "^3.2.25"
   },
   "devDependencies": {
