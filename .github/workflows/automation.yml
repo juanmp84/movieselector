@@ -2,8 +2,6 @@ name: build
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build-project:
@@ -12,7 +10,6 @@ jobs:
     strategy:
       matrix:
         node-version: [14]
-    needs: test
     steps:
       - name: Checkout Commit
         uses: actions/checkout@v2
