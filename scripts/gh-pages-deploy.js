@@ -1,6 +1,8 @@
 /* eslint-disable no-console */
-const execa = require("execa");
-const fs = require("fs");
+// const execa = require("execa");
+// const fs = require("fs");
+import * as exaca from 'execa';
+import * as fs from 'fs'
 (async () => {
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
