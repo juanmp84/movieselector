@@ -9,6 +9,6 @@ jobs:
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
-        username: 'jmp0284'
+        username: 'juanmp84'
         reponame: 'movieselector'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
