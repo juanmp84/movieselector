@@ -57,7 +57,7 @@
 
 .selected {
   color: red;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin-top: 50px;
 }
